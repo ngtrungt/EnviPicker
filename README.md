@@ -6,9 +6,9 @@
 
 # Usage
 
-APIs provided by EnviPicker:
+First things first `using Envi.Picker`
 
-- `EnviPicker.Instance.OpenPhotoLibrary(result => {})`: Open photo library from device.
+## Open photo library
 
 ```C#
 EnviPicker.Instance.OpenPhotoLibrary(result =>
