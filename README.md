@@ -6,7 +6,7 @@
 
 # Usage
 
-First things first `using Envi.Picker`
+First things first `using Envi.Picker;`
 
 ## Open photo library
 
