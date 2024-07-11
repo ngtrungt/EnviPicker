@@ -1,17 +1,16 @@
 # Release notes
 
-- Version 1.0.0:
+## Version 1.0.0:
   - Open photo library is now supported on Android
   - Open photo library is now supported on iOS
 
-# Integration guide
+# Usage
 
 APIs provided by EnviPicker:
 
 - `EnviPicker.Instance.OpenPhotoLibrary(result => {})`: Open photo library from device.
 
 ```C#
-// Usage
 EnviPicker.Instance.OpenPhotoLibrary(result =>
 {
   result.Match(
